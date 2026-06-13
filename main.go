@@ -1,11 +1,11 @@
+/*
+Copyright © 2026 NAME HERE <EMAIL ADDRESS>
+
+*/
 package main
 
-import (
-	"fmt"
-
-	"rsc.io/quote"
-)
+import "github.com/AnishKhamkar7/rotar-cli/cmd"
 
 func main() {
-	fmt.Println(quote.Go())
+	cmd.Execute()
 }
